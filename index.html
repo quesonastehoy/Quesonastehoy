@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Qué soñaste hoy?</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="stars"></div>
+
+  <nav>
+    <strong>🌙 ¿Qué soñaste hoy?</strong>
+    <a href="#enviar">Enviar sueño</a>
+  </nav>
+
+  <section class="hero-content">
+    <span class="tag">Comunidad de sueños hispanos</span>
+    <h1>Todos soñamos.<br>Algunos sueños merecen ser escuchados.</h1>
+    <p>
+      Envía un audio de WhatsApp de máximo 2 minutos contando tu sueño.
+      Los mejores relatos serán seleccionados para Reels, TikTok, Shorts y nuestra web.
+    </p>
+
+   <a class="main-btn" target="_blank" href="https://wa.me/56912345678?text=Hola,%20quiero%20contar%20mi%20sue%C3%B1o">
+  Enviar mi sueño por WhatsApp
+</a> 
+      Enviar mi sueño por WhatsApp
+    </a>
+  </section>
+</header>
+
+<main>
+
+<section class="counter">
+  <h2>Sueños recibidos</h2>
+  <div class="numbers">
+    <div><strong id="totalDreams">128</strong><span>Total</span></div>
+    <div><strong>12</strong><span>Países</span></div>
+    <div><strong>37</strong><span>Para Reels</span></div>
+  </div>
+</section>
+
+<section class="how">
+  <h2>¿Cómo funciona?</h2>
+
+  <div class="cards">
+    <article>
+      <span>1</span>
+      <h3>Recuerda tu sueño</h3>
+      <p>Puede ser raro, bonito, oscuro, espiritual o inexplicable.</p>
+    </article>
+
+    <article>
+      <span>2</span>
+      <h3>Envíalo por WhatsApp</h3>
+      <p>Cuéntalo en audio o texto. Máximo 2 minutos.</p>
+    </article>
+
+    <article>
+      <span>3</span>
+      <h3>Lo revisamos</h3>
+      <p>Seleccionamos los más interesantes para publicarlos.</p>
+    </article>
+  </div>
+</section>
+
+<section class="map">
+  <h2>Sueños de Hispanoamérica</h2>
+  <p>Filtra sueños por país.</p>
+
+  <div class="filters">
+    <button class="active" data-country="todos">Todos</button>
+    <button data-country="Chile">Chile</button>
+    <button data-country="Argentina">Argentina</button>
+    <button data-country="Perú">Perú</button>
+    <button data-country="México">México</button>
+    <button data-country="Colombia">Colombia</button>
+  </div>
+</section>
+
+<section class="dreams">
+  <h2>Sueños destacados</h2>
+  <div id="dreamList" class="dream-list"></div>
+</section>
+
+<section id="enviar" class="send">
+  <h2>Cuéntanos tu sueño</h2>
+  <p>
+    Al enviar tu relato aceptas que pueda ser revisado, editado y publicado
+    de forma anónima o con tu nombre.
+  </p>
+
+  <a class="main-btn" id="whatsappBtn2" target="_blank">
+    Enviar sueño ahora
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <p>🌙 ¿Qué soñaste hoy? — Sueños reales de personas reales.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
